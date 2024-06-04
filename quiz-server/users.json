@@ -1,0 +1,676 @@
+[
+  {
+    "email": "tutaitam1@gmail.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 2,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "5",
+            "isCorrect": false
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 3,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Berlin",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 4,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 5,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "MochalovM11@protonmail.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "3",
+            "isCorrect": false
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Incorrect",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "sessionNumber": 2,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Berlin",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "5",
+            "isCorrect": false
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Incorrect",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "tutaitam1@yandex.ru",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "sdgg@gmail.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Incorrect",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "выпывп@mail.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Incorrect",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "ananas@yahoo",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "pootis@red.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "dhdjdj@x.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 2,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "sdgsg@sd.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "ddsg@gmail.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "3",
+            "isCorrect": false
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "tututda@yahoo.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 2,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 3,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 4,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      },
+      {
+        "sessionNumber": 5,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "5",
+            "isCorrect": false
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Incorrect",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "rgy@gm.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Berlin",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "5",
+            "isCorrect": false
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Incorrect",
+            "isCorrect": false
+          }
+        ]
+      },
+      {
+        "sessionNumber": 2,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Incorrect",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "tutapatuta@sdg.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Berlin",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "5",
+            "isCorrect": false
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Lisbon",
+            "isCorrect": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "prodamgarazh@yandex.ru",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "email": "yazaebalsya@mail.ru",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ],
+        "ending": "Ending one: You chose Paris, 4, and Madrid!"
+      }
+    ]
+  },
+  {
+    "email": "duxuxx@gmail.co",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ],
+        "ending": "Default ending: You chose a different combination."
+      }
+    ]
+  },
+  {
+    "email": "wegweg",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "Paris",
+            "isCorrect": true
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "4",
+            "isCorrect": true
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Madrid",
+            "isCorrect": true
+          }
+        ],
+        "ending": "Ending one: You chose Paris, 4, and Madrid!"
+      }
+    ]
+  },
+  {
+    "email": "wegweg@gmail.com",
+    "sessions": [
+      {
+        "sessionNumber": 1,
+        "answers": [
+          {
+            "question": "What is the capital of France?",
+            "selectedOption": "London",
+            "isCorrect": false
+          },
+          {
+            "question": "What is 2 + 2?",
+            "selectedOption": "3",
+            "isCorrect": false
+          },
+          {
+            "question": "What is the capital of Spain?",
+            "selectedOption": "Rome",
+            "isCorrect": false
+          }
+        ],
+        "ending": "Default ending: You chose a different combination."
+      }
+    ]
+  }
+]

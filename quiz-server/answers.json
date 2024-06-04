@@ -1,0 +1,21 @@
+{
+  "email": "wegweg@gmail.com",
+  "answers": [
+    {
+      "question": "What is the capital of France?",
+      "selectedOption": "London",
+      "isCorrect": false
+    },
+    {
+      "question": "What is 2 + 2?",
+      "selectedOption": "3",
+      "isCorrect": false
+    },
+    {
+      "question": "What is the capital of Spain?",
+      "selectedOption": "Rome",
+      "isCorrect": false
+    }
+  ],
+  "ending": "Default ending: You chose a different combination."
+}
