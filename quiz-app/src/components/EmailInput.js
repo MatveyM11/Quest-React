@@ -44,6 +44,13 @@ color: red;
 margin-bottom: 10px;
 `;
 
+// Styled heading for the text above the form
+const Heading = styled.h2`
+margin-bottom: 20px;
+text-align: center;
+font-size: 18px;
+`;
+
 // EmailInput component to handle email submission
 const EmailInput = ({ onEmailSubmit }) => {
     const [email, setEmail] = useState(''); // State to manage the email input
@@ -63,6 +70,7 @@ const EmailInput = ({ onEmailSubmit }) => {
 
     return (
         <EmailInputContainer>
+        <Heading>Нужно ли вам самое дорогое железо?</Heading> {/* Heading text */}
         <form onSubmit={handleSubmit} noValidate> {/* noValidate to prevent default validation */}
         {error && <ErrorMessage>{error}</ErrorMessage>} {/* Display error message if exists */}
         <EmailInputField
