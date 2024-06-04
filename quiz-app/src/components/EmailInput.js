@@ -1,15 +1,25 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import Logo from './Logo'; // Import the Logo component
 
-// Styled container for the email input form
-const EmailInputContainer = styled.div`
+// Styled container for the entire form section
+const FormSectionContainer = styled.div`
 display: flex;
 flex-direction: column;
 align-items: center;
-justify-content: center;
 width: 100%;
 max-width: 400px;
 margin: 0 auto;
+`;
+
+// Container for the heading with adjustable height
+const HeadingContainer = styled.div`
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
+height: 100px; // Adjustable height
+margin-bottom: 20px;
 `;
 
 // Styled input field for the email
@@ -46,9 +56,9 @@ margin-bottom: 10px;
 
 // Styled heading for the text above the form
 const Heading = styled.h2`
-margin-bottom: 20px;
 text-align: center;
-font-size: 18px;
+font-size: 28px;
+margin-bottom: 250px;
 `;
 
 // EmailInput component to handle email submission
@@ -69,8 +79,12 @@ const EmailInput = ({ onEmailSubmit }) => {
     };
 
     return (
-        <EmailInputContainer>
+        <>
+        <Logo /> {/* Logo component */}
+        <HeadingContainer>
         <Heading>Нужно ли вам самое дорогое железо?</Heading> {/* Heading text */}
+        </HeadingContainer>
+        <FormSectionContainer>
         <form onSubmit={handleSubmit} noValidate> {/* noValidate to prevent default validation */}
         {error && <ErrorMessage>{error}</ErrorMessage>} {/* Display error message if exists */}
         <EmailInputField
@@ -82,7 +96,8 @@ const EmailInput = ({ onEmailSubmit }) => {
         />
         <EmailSubmitButton type="submit">Отправить</EmailSubmitButton> {/* Submit button */}
         </form>
-        </EmailInputContainer>
+        </FormSectionContainer>
+        </>
     );
 };
 
