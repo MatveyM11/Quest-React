@@ -1,0 +1,35 @@
+{
+  "showCorrectOrIncorrect": false,
+  "showCorrectAnswers": false,
+  "questions": [
+    {
+      "question": "What is the capital of France?",
+      "options": ["Paris", "London", "Berlin"],
+      "answer": "Paris"
+    },
+    {
+      "question": "What is 2 + 2?",
+      "options": ["3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "question": "What is the capital of Spain?",
+      "options": ["Madrid", "Rome", "Lisbon"],
+      "answer": "Madrid"
+    }
+  ],
+  "endings": [
+    {
+      "conditions": ["Paris", "4", "Madrid"],
+      "message": "Ending one: You chose Paris, 4, and Madrid!"
+    },
+    {
+      "conditions": ["Rome", "5", "Berlin"],
+      "message": "Ending two: You chose Rome, 5, and Berlin!"
+    },
+    {
+      "conditions": [],
+      "message": "Default ending: You chose a different combination."
+    }
+  ]
+}
