@@ -1,54 +1,54 @@
+// ChatContainer.js
 import React from 'react';
 import styled from 'styled-components';
 import ChatBubble from './ChatBubble';
 import OptionBubble from './OptionBubble';
 
-// Styled container for the chat interface
 const Container = styled.div`
-display: flex; /* Use flexbox for layout */
-flex-direction: column; /* Arrange items vertically */
-align-items: center; /* Center items horizontally */
-width: 100%; /* Full width */
-max-height: 70vh; /* Maximum height for the container */
-overflow-y: auto; /* Enable vertical scrolling */
-padding: 20px; /* Padding inside the container */
-border: 1px solid #ccc; /* Border around the container */
-border-radius: 10px; /* Rounded corners */
-background-color: #fff; /* Background color */
-box-sizing: border-box; /* Include padding and border in the element's total width and height */
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+max-height: 70vh;
+overflow-y: auto;
+padding: 20px;
+border: 1px solid #ccc;
+border-radius: 10px;
+background-color: #fff;
+box-sizing: border-box;
 `;
 
-// Styled container for the option buttons
 const OptionsContainer = styled.div`
-display: flex; /* Use flexbox for layout */
-flex-direction: row; /* Arrange items horizontally */
-justify-content: center; /* Center items horizontally */
-align-items: center; /* Center items vertically */
-width: 100%; /* Full width */
-gap: 10px; /* Space between items */
-margin-top: 10px; /* Margin on top */
+display: flex;
+flex-direction: column; /* Stack vertically */
+justify-content: center;
+align-items: center;
+width: 100%;
+gap: 10px;
+margin-top: 10px;
+
+@media (min-width: 600px) {
+    flex-direction: row; /* Stack horizontally on larger screens */
+}
 `;
 
-// Styled container for the final option buttons
 const SingleLineOptionsContainer = styled.div`
-display: flex; /* Use flexbox for layout */
-flex-direction: column; /* Arrange items vertically */
-justify-content: center; /* Center items vertically */
-align-items: center; /* Center items horizontally */
-width: 100%; /* Full width */
-gap: 10px; /* Space between items */
-margin-top: 10px; /* Margin on top */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100%;
+gap: 10px;
+margin-top: 10px;
 `;
 
-// Styled wrapper for each option bubble
 const OptionWrapper = styled.div`
-flex: 0 0 auto; /* Flex item with no growth or shrink */
-margin: 5px; /* Margin around each option */
+flex: 0 0 auto;
+margin: 5px;
+word-wrap: break-word; /* Ensure long text wraps */
 `;
 
-// ChatContainer component to display chat messages and options
 const ChatContainer = ({ messages, options, onOptionClick, isQuizFinished }) => {
-    // Function to render options in a row
     const renderOptions = () => {
         return (
             <OptionsContainer>
@@ -61,7 +61,6 @@ const ChatContainer = ({ messages, options, onOptionClick, isQuizFinished }) => 
         );
     };
 
-    // Function to render options in a column
     const renderFinalOptions = () => {
         return (
             <SingleLineOptionsContainer>
@@ -77,12 +76,16 @@ const ChatContainer = ({ messages, options, onOptionClick, isQuizFinished }) => 
     return (
         <Container>
         {messages.map((message, index) => (
-            <ChatBubble key={index} message={message.text} isUser={message.isUser} />
+            <ChatBubble
+            key={index}
+            message={message.text}
+            isUser={message.isUser}
+            isLastMessage={index === messages.length - 1}
+            />
         ))}
         {isQuizFinished ? renderFinalOptions() : renderOptions()}
         </Container>
     );
 };
 
-// Export the ChatContainer component for use in other parts of the app
 export default ChatContainer;

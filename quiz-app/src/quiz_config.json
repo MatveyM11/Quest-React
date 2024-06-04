@@ -3,18 +3,18 @@
   "showCorrectAnswers": false,
   "questions": [
     {
-      "question": "What is the capital of France?",
-      "options": ["Paris", "London", "Berlin"],
-      "answer": "Paris"
+      "question": "Ваши клиенты требуют высокопроизводительных услуг?",
+      "options": ["Нет", "Иногда", "Да, наши клиенты требуют максимально возможную производительность"],
+      "answer": "Да, наши клиенты требуют максимально возможную производительность"
     },
     {
-      "question": "What is 2 + 2?",
-      "options": ["3", "4", "5"],
-      "answer": "4"
+      "question": "Ваш объём трафика в месяц?",
+      "options": ["1ТБ+", "10ТБ+", "100ТБ+"],
+      "answer": "100ТБ+"
     },
     {
-      "question": "What is the capital of Spain?",
-      "options": ["Madrid", "Rome", "Lisbon"],
+      "question": "Текущая ИТ-инфраструктура сдерживает ваш рост?",
+      "options": ["Нет", "Умеренно", "Сильно"],
       "answer": "Madrid"
     }
   ],
@@ -24,8 +24,8 @@
       "message": "Ending one: You chose Paris, 4, and Madrid!"
     },
     {
-      "conditions": ["Rome", "5", "Berlin"],
-      "message": "Ending two: You chose Rome, 5, and Berlin!"
+      "conditions": ["Да, наши клиенты требуют максимально возможную производительность", "100ТБ+", "Сильно"],
+      "message": "Тяжёлая ситуация, скорее всего вам нужно мощное железо!"
     },
     {
       "conditions": [],

@@ -1,4 +1,3 @@
-// Import necessary libraries and components
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import ChatContainer from './components/ChatContainer';
@@ -121,8 +120,8 @@ const App = () => {
 
                 setMessages([
                     ...newMessages,
-                    { text: `Quiz finished! Your score is ${score + (isCorrect ? 1 : 0)}/${questions.length}.`, isUser: false },
-                            { text: endingMessage, isUser: false }
+                    { text: endingMessage, isUser: false },
+                    { text: `Игра закончена! Ваш результат ${score + (isCorrect ? 1 : 0)}/${questions.length}.`, isUser: false }
                 ]);
                 setIsQuizFinished(true); // Set quiz as finished
                 setEndOptions(['Да', 'Нет']); // Show end options
@@ -139,7 +138,7 @@ const App = () => {
 
                 console.log('Sending data:', dataToSend); // Add logging
 
-                fetch('http://Айпи и Порт Node сервера/save-answers', {
+                fetch('http://192.168.3.3:5000/save-answers', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
@@ -149,7 +148,13 @@ const App = () => {
                 .then(response => response.text())
                 .then(data => {
                     console.log('Success:', data);
-                    setTimeout(() => setShowTryAgain(true), 500); // Delay showing "Try again?" bubble by 500ms
+                    setTimeout(() => {
+                        setMessages((prevMessages) => [
+                            ...prevMessages,
+                            { text: 'Хотите повторить?', isUser: false }
+                        ]);
+                        setShowTryAgain(true); // Delay showing "Try again?" bubble by 500ms
+                    }, 500);
                 })
                 .catch((error) => {
                     console.error('Error:', error);

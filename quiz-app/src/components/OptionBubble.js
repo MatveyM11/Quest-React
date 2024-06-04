@@ -1,26 +1,28 @@
+// OptionBubble.js
 import React from 'react';
 import styled from 'styled-components';
 
-// Styled component for the option bubble
-const Bubble = styled.div`
-padding: 10px 20px; /* Padding inside the bubble */
-margin: 5px; /* Margin around the bubble */
-border-radius: 20px; /* Rounded corners */
-background-color: #007bff; /* Background color */
-color: white; /* Text color */
-cursor: pointer; /* Cursor changes to pointer on hover */
-white-space: nowrap; /* Prevent text from wrapping */
-text-align: center; /* Center the text */
+const Bubble = styled.button`
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+word-wrap: break-word; /* Ensure long text wraps */
+max-width: 100%; /* Allow it to take up available width */
 
 &:hover {
-    background-color: #0056b3; /* Change background color on hover */
+    background-color: #0056b3;
 }
 `;
 
-// Functional component for the option bubble
 const OptionBubble = ({ option, onClick }) => {
-    return <Bubble onClick={onClick}>{option}</Bubble>; // Render the bubble with an onClick event
+    return (
+        <Bubble onClick={onClick}>
+        {option}
+        </Bubble>
+    );
 };
 
-// Export the OptionBubble component for use in other parts of the app
 export default OptionBubble;
